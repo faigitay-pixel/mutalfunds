@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="דירוג קרנות נאמנות", layout="wide")
 
 # כותרות
-st.title("🏆 מדרג קרנות הנאמנות - Top 5")
+st.title("🏆 מדרג קרנות הנאמנות מגן - Top 5")
 st.markdown("המערכת מנתחת את הקובץ שלך ומציגה את הקרנות המנצחות לפי רמת סיכון וחשיפה למניות.")
 
 # פונקציה לטעינה וניקוי נתונים
@@ -79,3 +79,4 @@ if df is not None:
 
 else:
     st.info("אנא וודא שהקובץ mutual-funds.csv נמצא באותה תיקייה עם הקוד.")
+
